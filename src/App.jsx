@@ -13,9 +13,8 @@ function App() {
 
   const handleCalculate = () => {
     const res = eval(value)
-    // const result=Math.floor(res)
-    const result=res.toFixed(2)
-    setValue(result)
+   
+    setValue(res)
   }
 
   const handleAC = () => {
